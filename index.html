@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Font-awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!--Main Css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!--Header-->
+    <header class="header">
+      <a href="#" class="logo">Richa</a>
+
+      <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact ">Contact</a>
+      </nav>
+    </header>
+
+    <!--Home Section-->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hi , Myself</h3>
+        <h1>Richa</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+        <p>
+          Turning ideas into interactive web experiences while sharpening my
+          problem-solving skills through DSA.<br />
+          MERN stack in progress, dreams in motion.
+        </p>
+        <div class="social-media">
+          <a href="https://www.linkedin.com/in/richa-gupta-8491b2288/" target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/richaDev06" target="_blank"
+            ><i class="fa-brands fa-square-github"></i
+          ></a>
+          <a href="https://leetcode.com/u/_richa06/" target="_blank"
+            ><i class="fa-solid fa-code"></i
+          ></a>
+        </div>
+        <a href="assets/resume1_richa.pdf" target="_blank" class="btn">View Resume</a
+        >
+      </div>
+
+      <div class="home-img">
+        <img
+          src="images/richa_profile_white-photoaidcom-cropped.png"
+          alt="profile-dp"
+        />
+      </div>
+    </section>
+
+    <!--About Section-->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="/images/richa_profile_white-removebg-preview.png" alt="" />
+      </div>
+      <div class="about-content">
+        <h2 class="heading">ABOUT <span>Me</span></h2>
+        <h3>Coding & Beyond...</h3>
+        <p>
+          I’m Richa, a CSE student at Guru Gobind Singh Indraprastha University,
+          Delhi.<br /><br />
+          With a strong academic foundation — scoring 92.8% in my 10th CBSE
+          board exams, 94.6% in my 12th CBSE board exams, and currently
+          maintaining a 9.4 CGPA — I’m dedicated to excellence in everything I
+          pursue.<br /><br />I’m currently sharpening my skills in the MERN
+          stack and Data Structures & Algorithms to build a solid foundation for
+          a career in the tech industry.<br /><br />
+          I’m passionate about creating efficient, user-friendly web
+          applications and solving challenging problems through code.<br /><br />
+          Beyond coding, I enjoy cooking, drawing, painting, and unwinding with
+          a good Netflix series.<br /><br />
+          My goal is to continuously learn, grow, and contribute to innovative
+          projects that make an impact.
+        </p>
+      </div>
+    </section>
+
+    <!--Skills Section-->
+    <section class="skills" id="skills">
+      <h2 class="heading">My <span>Skills</span></h2>
+
+      <div class="skills-container">
+        <div class="skills-box">
+          <i class="fa-brands fa-html5"></i>
+          <h3>HTML5</h3>
+        </div>
+
+        <div class="skills-box">
+          <i class="fa-brands fa-css3-alt"></i>
+          <h3>CSS3</h3>
+        </div>
+
+        <div class="skills-box">
+          <i class="fa-brands fa-js"></i>
+          <h3>JavaScript</h3>
+        </div>
+
+        <div class="skills-box">
+          <i class="fa-solid fa-laptop-code"></i>
+          <h3>React.js</h3>
+        </div>
+
+        <div class="skills-box">
+          <i class="fa-brands fa-node"></i>
+          <h3>Node.js</h3>
+        </div>
+
+        <div class="skills-box">
+          <i class="fa-solid fa-server"></i>
+          <h3>Express.js</h3>
+        </div>
+
+        <div class="skills-box">
+          <i class="fa-solid fa-database"></i>
+          <h3>MongoDB</h3>
+        </div>
+
+        <div class="skills-box">
+          <i class="fa-solid fa-code-branch"></i>
+          <h3>MySQL</h3>
+        </div>
+
+        <div class="skills-box">
+          <i class="fa-brands fa-git-alt"></i>
+          <h3>Git & GitHub</h3>
+        </div>
+
+        <div class="skills-box">
+          <i class="fa-brands fa-java"></i>
+          <h3>Java</h3>
+        </div>
+
+        <div class="skills-box">
+          <i class="fa-brands fa-python"></i>
+          <h3>Python</h3>
+        </div>
+
+      </div>
+    </section>
+
+    <!--Projects Section-->
+    <section class="projects" id="projects">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="projects-container">
+            <div class="projects-box">
+                <img src="/images/share-code.png" alt="share-code">
+                <div class="projects-layer">
+                    <h4>Share-Code</h4>
+                    <p>A real-time collaborative code editor made with React, Socket.IO, and Node.js, featuring Monaco Editor, dynamic rooms, and live event handling.</p>
+                    <a href="https://github.com/richaDev06/share-code" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <!-- <i class="fa-solid fa-square-arrow-up-right"></i> -->
+                </div>
+            </div>
+
+            <div class="projects-box">
+                <img src="/images/empo-react.png" alt="empo-react">
+                <div class="projects-layer">
+                    <h4>Empo-React</h4>
+                    <p>A full-stack React app with role-based task management, real-time status updates, and localStorage-based login persistence for Admin and Employee roles.</p>
+                    <a href="https://github.com/richaDev06/empo-react" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <!-- <i class="fa-solid fa-square-arrow-up-right"></i> -->
+                </div>
+            </div>
+
+            <div class="projects-box">
+                <img src="/images/velfie.png" alt="velfie">
+                <div class="projects-layer">
+                    <h4>Velfie</h4>
+                    <p>A voice-activated selfie web app using JavaScript, Web Speech API, and Webcam.js with hands-free capture and a 3-second countdown.</p>
+                    <a href="https://github.com/richaDev06/velfie" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <!-- <i class="fa-solid fa-square-arrow-up-right"></i> -->
+                </div>
+            </div>
+
+            <div class="projects-box">
+                <img src="/images/spendy.png" alt="spendy">
+                <div class="projects-layer">
+                    <h4>Spendy</h4>
+                    <p>An interactive expense tracker built using HTML, CSS and JavaScript that simplifies managing earnings and expenses.</p>
+                    <a href="https://github.com/richaDev06/spendy" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <!-- <i class="fa-solid fa-square-arrow-up-right"></i> -->
+                </div>
+            </div>
+
+            <div class="projects-box">
+                <img src="/images/tickit.png" alt="tick-it">
+                <div class="projects-layer">
+                    <h4>Tick-It</h4>
+                    <p>A responsive To-Do List Web App built using HTML, CSS and JavaScript with localStorage for persistent task management.</p>
+                    <a href="https://github.com/richaDev06/TickIt" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <!-- <i class="fa-solid fa-square-arrow-up-right"></i> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contact Section-->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+
+      <form action="mailto:itsricha4work@gmail.com" method="post" enctype="text/plain">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="Email Address" />
+        </div>
+
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number" />
+          <input type="text" placeholder="Email Subject" />
+        </div>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+
+    <!--Footer Section-->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Made with 💙 by me</p>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+      </div>
+    </footer>
+
+    <!--Scroll Reveal JS-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--Typed JS-->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!--Main JS-->
+    <script src="script.js"></script>
+  </body>
+</html>
